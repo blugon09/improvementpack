@@ -1,2 +1,2 @@
-# Minecraft Namnyang Pack
+# Improvement Pack
 
