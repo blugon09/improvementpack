@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="pack">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.7.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang pack V.0.7.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.9.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.6.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.6.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pack/namnyang_pack_V.0.6.2.1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
