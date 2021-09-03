@@ -7,7 +7,7 @@
             var PackVer = "1.0.0";
             var PackPath = `pack/${McVer}/Improvement_${McVer}_v${PackVer}.zip`;
             function downloadpack(mcver, ver) {
-                if (!ver) {
+                if (!ver || !mcver) {
                     return window.open(PackPath);
                 }
                 window.open(`pack/${mcver}/Improvement_${mcver}_v${ver}.zip`);
