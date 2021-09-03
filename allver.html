@@ -3,13 +3,14 @@
 <html>
     <head>
         <script>
-            var PackVer = "1.17_v1.0.0";
-            var PackPath = "pack/Improvement_" + PackVer + ".zip";
+            var McVer = "1.17";
+            var PackVer = "1.0.0";
+            var PackPath = `pack/${McVer}/Improvement_${McVer}_v${PackVer}.zip`;
             function downloadpack(mcver, ver) {
                 if (!ver) {
                     return window.open(PackPath);
                 }
-                window.open("pack/" + mcver + "/Improvement_" + mcver + "_v" + ver + ".zip");
+                window.open(`pack/${mcver}/Improvement_${mcver}_v${ver}.zip`);
             }
         </script>
 
