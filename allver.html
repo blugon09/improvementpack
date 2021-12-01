@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-        <script>
-            var McVer = "1.17";
-            var PackVer = "1.0.2";
-            var PackPath = `pack/${McVer}/Improvement_${McVer}_v${PackVer}.zip`;
-            function downloadpack(mcver, ver) {
-                if (!ver || !mcver) {
-                    return window.open(PackPath);
-                }
-                window.open(`pack/${mcver}/Improvement_${mcver}_v${ver}.zip`);
-            }
-        </script>
-
         <meta name="title" content="ImprovementPack" />
         <meta name="subject" content="Minecraft JE Resource Pack" />
         <meta name="author" content="Blugon" />
@@ -39,17 +27,30 @@
 
         <section id="four" class="wrapper">
             <div class="inner">
-
+                <!-- 1.18 -->
+                <strong style="font-size: 1.3rem">1.18</strong>
+                <table class="PackDownload">
+                    <tbody>
+                        <tr>
+                            <td>1.18_v1.0.0</td>
+                            <td>Upload</td>
+                            <td>2021/12/01</td>
+                            <td class="PackDownloadButton">
+                                <a style="cursor: pointer" onclick="downloadpack('1.18', '1.0.0')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <!-- 1.17 -->
                 <strong style="font-size: 1.3rem">1.17</strong>
-                <table>
+                <table class="PackDownload">
                     <tbody>
                         <tr>
                             <td>1.17_v1.0.2</td>
                             <td>Bug Fix</td>
                             <td>2021/11/08</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.17', '1.0.2')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -57,7 +58,7 @@
                             <td>1.17_v1.0.1</td>
                             <td>Change StainedGlass Texture</td>
                             <td>2021/10/01</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.17', '1.0.1')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -65,7 +66,7 @@
                             <td>1.17_v1.0.0</td>
                             <td>Upload</td>
                             <td>2021/09/01</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.17', '1.0.1')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -74,13 +75,13 @@
 
                 <!-- 1.16 -->
                 <strong style="font-size: 1.3rem">1.16</strong>
-                <table>
+                <table class="PackDownload">
                     <tbody>
                         <tr>
                             <td>1.16_v1.0.0</td>
                             <td>Upload</td>
                             <td>2021/09/03</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.16', '1.0.0')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -89,13 +90,13 @@
 
                 <!-- 1.15 -->
                 <strong style="font-size: 1.3rem">1.15</strong>
-                <table>
+                <table class="PackDownload">
                     <tbody>
                         <tr>
                             <td>1.15_v1.0.0</td>
                             <td>Upload</td>
                             <td>2021/09/03</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.15', '1.0.0')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -104,13 +105,13 @@
 
                 <!-- 1.14 -->
                 <strong style="font-size: 1.3rem">1.14</strong>
-                <table>
+                <table class="PackDownload">
                     <tbody>
                         <tr>
                             <td>1.14_v1.0.0</td>
                             <td>Upload</td>
                             <td>2021/09/03</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.14', '1.0.0')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -119,13 +120,13 @@
 
                 <!-- 1.13 -->
                 <strong style="font-size: 1.3rem">1.13</strong>
-                <table>
+                <table class="PackDownload">
                     <tbody>
                         <tr>
                             <td>1.13_v1.0.0</td>
                             <td>Upload</td>
                             <td>2021/09/03</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.13', '1.0.0')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -134,13 +135,13 @@
 
                 <!-- 1.12 -->
                 <strong style="font-size: 1.3rem">1.12</strong>
-                <table>
+                <table class="PackDownload">
                     <tbody>
                         <tr>
                             <td>1.12_v1.0.1</td>
                             <td>Changed Compass and Clock Textures</td>
                             <td>2021/09/03</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.12', '1.0.1')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -148,7 +149,7 @@
                             <td>1.12_v1.0.0</td>
                             <td>Upload</td>
                             <td>2021/09/01</td>
-                            <td>
+                            <td class="PackDownloadButton">
                                 <a style="cursor: pointer" onclick="downloadpack('1.12', '1.0.0')"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
                             </td>
                         </tr>
@@ -159,7 +160,7 @@
             </div>
             <br />
             <ul class="actions special">
-                <li><a onclick="downloadpack()" class="button primary icon solid fa-download">Download Latest</a></li>
+                <li><a onclick="downloadLastPack()" class="button primary icon solid fa-download">Download Latest</a></li>
             </ul>
         </section>
 
@@ -185,5 +186,6 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/downloadpack.js"></script>
     </body>
 </html>

@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-        <script>
-            const McVer = "1.17";
-            const PackVer = "1.0.1";
-            const PackPath = `pack/${McVer}/Improvement_${McVer}_v${PackVer}.zip`;
-
-            function downloadpack() {
-                window.open(PackPath);
-            }
-        </script>
-
         <meta name="title" content="ImprovementPack" />
         <meta name="subject" content="Minecraft JE Resource Pack" />
         <meta name="author" content="Blugon" />
@@ -34,8 +24,10 @@
             <div class="content">
                 <h1 style="font-family: 양진체,serif">ImprovementPack</h1>
                 <p>Made By Blugon</p>
+
+<!--                download button-->
                 <ul class="actions">
-                    <li><a onclick="downloadpack()" class="button primary icon solid fa-download">Download Latest</a></li>
+                    <li><a onclick="downloadLastPack()" class="button primary icon solid fa-download">Download Latest</a></li>
                     <li><a href="#one" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
                 </ul>
             </div>
@@ -101,5 +93,6 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/downloadpack.js"></script>
     </body>
 </html>
