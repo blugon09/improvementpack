@@ -1,5 +1,5 @@
 let LastMcVer = "1.18"
-let LastPackVer = "1.0.2"
+let LastPackVer = "1.0.3"
 
 function downloadpack(mcver, ver) {
     let pack = `pack/${mcver}/Improvement_${mcver}_v${ver}.zip`
